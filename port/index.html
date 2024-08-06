@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kalnia+Glaze:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo left">HAMBAT</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Works</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="hide-on-med-and-down">
+        <div class="col l2 s12 m12">
+            <img src="LI.jpg" alt="Description of Image" class=" daa  materialboxed" width="450px" style="padding-top: 20px;">
+        </div>
+        <div class=" big col l8 s12 m12 push-l2">
+            <h4 class="head" style="font-weight: bold;" style="color:#FBA835">Akinwunmi Hafeezah Mayowa</h4>
+            <p class="pa white-text center-align" >Web Developer | Data Analyst </p>
+            <!-- <br><br> -->
+            <center><a href="works" class="btn btn-header btn-large" style=" background-color:#FBA835;margin-top: 20px; padding:0px 56px 0px 56px">Works <i class="material-icons right"></i></a></center>
+        </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col l6 s12 m12">
+          <img src="LI.jpg" alt="Description of Image" class="responsive-img materialboxed" style="padding-top: 20px;">
+      </div>
+        <div class="col l6 s12 m12 " style=" padding-top: 5px;">
+            <h5 style="text-align: center;" style="color:#FBA835">Nwala Lady-Joy</h5>
+            <p class="center-align white-text" style="font-size: 18px;">Front-end Developer | Data Analyst </p>
+           <center><a href="works" class="btn btn-header btn-large" style=" background-color:#FBA835;margin: 23px;" >Explore More <i class="material-icons right">border_color</i></a></center>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+ 
+  
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+
+
+  $(document).ready(function(){
+
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+
+  });
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+    $('.modal').modal();
+  });
+
+</script>
+</body>
+</html>
+

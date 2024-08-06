@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <style>
+    nav .brand-logo{
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+      }
+  </style>
+</head>
+
+<body>
+  
+ 
+  <nav class="nav-wraper purple">
+    <div class="container">
+   <a href="#" class="brand-logo"> MY PORTFOLIO<title></title></a>
+   <a href="#" class="sidenav-trigger" data-target="mobile link"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">contact</a></li>
+            </ul>
+      
+      </div>
+      </nav>
+       <ul class="sidenav" id="mobile link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">contact</a></li>
+  
+       </ul>
+       
+       <section style="background-color: rgb(128, 128, 128);" >
+        <div class="container" >
+          <div class="row">
+            <div class="hide-on-med-and-down">
+              <div class="col l2 s12 m12">
+                  <img src="img/opeTwo.jpg" alt="Description of Image" class=" daa  materialboxed" style="padding:10px">
+              </div>
+         
+              <div class=" big col l8 s12 m12 push-l2">
+                  <h4 class="head" style="font-weight: bold;" style="color:purple">Oduwole Opeyemi Cicilia
+                </h4>
+                <p style="color: white; text-align: left;">Web Developer | Hair Stylist | Photography & Photo Editor</p>
+
+            </div>
+
+          </div>
+            <div class="hide-on-large-only">
+              <div class="col l6 s12 m12">
+                <img src="img/opeTwo.jpg" alt="Description of Image" class="responsive-img materialboxed" style=" padding-top: 20px;" >
+            </div>
+              <div class="col l6 s12 m12 " style=" padding-top: 5px;">
+                  <h5 style="text-align: center;" style="color:purple"><Obj>Oduwole Opeyemi Cicilia
+                  
+                  </Obj></h5>
+                  <p style="color: white; text-align: center;">Web Developer | Hair Stylist | Photography & Photo Editor</p>
+
+
+          </div>
+        </div>
+
+      </section>
+      
+<br><br><br>
+<div class="container">
+  <h4> What Services you will Get from me!</h4>
+  <div class="row">
+    <div class="col s12 m12 l4">
+      <div class="card z-depth-5">
+        <div class="card-image">
+         <center> 
+          <i class="large material-icons purple-text" style="padding-top: 30px;">devices</i></center>
+        </div>
+        <div class="card-content">
+          <center>
+            <h5>Web Design</h5>
+          <p>I craft responsive, visually engaging websites using HTML, CSS, Materialize CSS, and JavaScript. My designs are tailored to enhance user experience and meet your needs. Let’s create a standout online presence for you.</p>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m12 l4">
+      <div class="card z-depth-5">
+        <div class="card-image">
+         <center> 
+          <i class="large material-icons purple-text" style="padding-top: 30px;">spa</i></center>
+        </div>
+        <div class="card-content">
+          <center>
+            <h5>Professional Hair and Wig Services</h5>
+          <p>I provide expert hair styling, wig ventilation, and wig installation. My services ensure a perfect look and fit, tailored to your needs. Let’s achieve your ideal style together..</p>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m12 l4">
+      <div class="card z-depth-5">
+        <div class="card-image">
+         <center> 
+          <i class="large material-icons purple-text" style="padding-top: 30px;">camera_alt</i></center>
+        </div>
+        <div class="card-content">
+          <center>
+            <h5>Photography & Editing </h5>
+          <p>I provide professional photography and editing, capturing and enhancing moments with high-quality images. Perfect for events, portraits, and more. Let’s create stunning visuals that reflect your vision.</p>
+          </center>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="footer-copyright purple" style="padding: 30px;">
+  <div class="container white-text center-align">
+  © 2024 Copyright Designed By OPEYEMI...All Right Reserved
+  </div>
+</div>
+
+      
+
+
+
+
+ <script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+
+
+  $(document).ready(function(){
+
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+    $('.modal').modal();
+  });
+      
+
+</script>
+</body>
+</html>
+
