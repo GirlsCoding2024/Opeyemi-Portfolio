@@ -22,14 +22,8 @@ nav{
      hyphens: auto;
    }
 
-   * {
-    font-family: "Zilla Slab", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
     .fish, b{
-       font-size: 15px; 
+       font-size: 18px; 
        font-weight: bold;
    }
 
@@ -58,7 +52,7 @@ nav{
            
        }
        div .big p{
-           font-size: 17px;
+           font-size: 22px;
        }
        .head{
            font-size: 35px;
@@ -71,13 +65,13 @@ nav{
    @media (max-width: 1366px){
    
        .head{
-           font-size: 30px;
+           font-size: 32px;
            padding-top: 200px !important; 
            color:purple;
            padding-left:65px;
        }
        div .big p{
-           font-size: 20px;
+           font-size: 22px;
            text-align: center;
        }
        .pa{
@@ -92,4 +86,17 @@ nav{
         left:  29.666667%;
     }
 }
+   
+/* More specific rule for iPhone XR and similar devices */
+@media only screen and (max-width: 896px) {
+    .card .card-content p {
+        margin: 0;
+        font-size: 35px !important;
+    }
     
+    .card, h5 {
+        font-size: 3.64rem !important;
+        line-height: 110%;
+        margin: 1.093rem 0 0.656rem 0;
+    }
+}

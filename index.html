@@ -6,15 +6,15 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
   <style>
+*{
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
     nav .brand-logo{
-    font-family: "Lobster", sans-serif;
-    font-size: 20px;
-      }
+font-size: 20px;
+  }
   </style>
 </head>
 
@@ -63,10 +63,8 @@
                 <img src="img/opeTwo.jpg" alt="Description of Image" class="responsive-img materialboxed" style=" padding-top: 20px;" >
             </div>
               <div class="col l6 s12 m12 " style=" padding-top: 5px;">
-                  <h5 style="text-align: center;" style="color:purple"><Obj>Oduwole Opeyemi Cicilia
-                  
-                  </Obj></h5>
-                  <p style="color: white; text-align: center;">Web Developer | Hair Stylist | Photography & Photo Editor</p>
+                  <h4 style="text-align: center;" style="color:purple">Oduwole Opeyemi Cicilia</h4>
+                  <p style="color: white; text-align: center; font-size: 30px;">Web Developer | Hair Stylist | Photography & Photo Editor</p>
 
 
           </div>
@@ -79,7 +77,7 @@
   <h4> What Services you will Get from me!</h4>
   <div class="row">
     <div class="col s12 m12 l4">
-      <div class="card z-depth-5">
+      <div class="card z-depth-5" >
         <div class="card-image">
          <center> 
           <i class="large material-icons purple-text" style="padding-top: 30px;">devices</i></center>
@@ -87,7 +85,7 @@
         <div class="card-content">
           <center>
             <h5>Web Design</h5>
-          <p>I craft responsive, visually engaging websites using HTML, CSS, Materialize CSS, and JavaScript. My designs are tailored to enhance user experience and meet your needs. Let’s create a standout online presence for you.</p>
+          <p>I craft responsive, visually engaging websites using HTML, CSS, Materialize CSS, and JavaScript. <br>My designs are tailored to enhance user experience and meet your needs. Let’s create a standout online presence for you.</p>
           </center>
         </div>
       </div>
@@ -102,7 +100,7 @@
         <div class="card-content">
           <center>
             <h5>Professional Hair and Wig Services</h5>
-          <p>I provide expert hair styling, wig ventilation, and wig installation. My services ensure a perfect look and fit, tailored to your needs. Let’s achieve your ideal style together..</p>
+          <p>I provide expert hair styling, wig ventilation, and wig installation.<br> My services ensure a perfect look and fit, tailored to your needs. Let’s achieve your ideal style together..</p>
           </center>
         </div>
       </div>
@@ -157,19 +155,11 @@
     $('.scrollspy').scrollSpy();
     $('.slider').slider(); 
     $('.tap-target').tapTarget();
-
-  });
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
     $('.carousel').carousel();
     $('.modal').modal();
+
   });
+
       
 
 </script>
